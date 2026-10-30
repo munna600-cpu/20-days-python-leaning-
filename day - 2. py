@@ -1,0 +1,30 @@
+# Day 2 - Variable and Data Types
+
+# String type
+  
+name = "Munna"
+print("Name:", name)
+
+# Integer type
+  
+age = 22
+print("Age:", age)
+
+# Float type
+  
+cgpa = 3.75
+print("CGPA:", cgpa)
+
+# Boolean type
+  
+is_learning = True
+print("Learning:", is_learning)
+
+# List type
+  
+skills = ["Python", "GitHub", "Google Sheet"]
+print("Skills:", skills)
+
+# Check data type
+  
+print(type(name), type(age), type(cgpa))
