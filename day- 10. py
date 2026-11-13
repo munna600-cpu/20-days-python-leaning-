@@ -1,0 +1,35 @@
+# Tuples and Sets
+
+# 1. Tuples
+fruits = ("Apple", "Banana", "Mango", "Orange")
+
+print("Tuple:", fruits)
+print("First Fruit:", fruits[0])
+print("Last Fruit:", fruits[-1])
+print("Tuple Length:", len(fruits))
+
+print("\nTuple Items:")
+for fruit in fruits:
+    print(fruit)
+
+
+# 2. Sets
+numbers = {10, 20, 30, 20, 10}
+
+print("\nSet:", numbers)
+  
+
+# Add an element
+numbers.add(40)
+print("After Adding:", numbers)
+  
+
+# Remove an element
+numbers.remove(20)
+print("After Removing:", numbers)
+
+print("Set Length:", len(numbers))
+
+print("\nSet Items:")
+for number in numbers:
+    print(number)
