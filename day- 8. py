@@ -1,0 +1,50 @@
+1. String and Print 
+
+# String Example
+
+name = "Munna"
+
+print(name)
+print("Hello", name)
+
+
+
+
+
+2. String Length
+
+  name = "Munna"
+
+print(len(name))
+
+
+
+
+3. String Indexing
+
+  name = "Munna"
+
+print(name[0])
+print(name[1])
+print(name[2])
+
+
+
+4. Replace string
+
+  name = "Munna"
+
+new_name = name.replace("Munna", "Rahim")
+
+print(new_name)
+
+
+
+5. string concatenation first_name = "Munna"
+last_name = "Hossen"
+
+full_name = first_name + " " + last_name
+
+print(full_name)
+
+  
