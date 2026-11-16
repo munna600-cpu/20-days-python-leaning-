@@ -1,0 +1,39 @@
+Revision and Practice
+# Student Information Management
+
+# 1. String
+name = "Munna"
+
+# 2. List
+marks = [80, 75, 90, 85, 70]
+
+# 3. Tuple
+student_id = (101, "CSE")
+
+# 4. Set
+unique_marks = set(marks)
+
+# 5. Dictionary
+student = {
+    "name": name,
+    "age": 22,
+    "department": "CSE"
+}
+
+# 6. Function
+def calculate_total(marks):
+    return sum(marks)
+
+# 7. Display Information
+print("Student Name:", student["name"])
+print("Age:", student["age"])
+print("Department:", student["department"])
+
+print("Student ID:", student_id)
+print("Subject Marks:", marks)
+print("Unique Marks:", unique_marks)
+
+total = calculate_total(marks)
+
+print("Total Marks:", total)
+print("Average Marks:", total / len(marks))
