@@ -1,0 +1,31 @@
+1. Project Name: student grade calculator 
+
+
+name = input("Enter your name: ")
+
+english = float(input("Enter English marks: "))
+math = float(input("Enter Math marks: "))
+python = float(input("Enter Python marks: "))
+
+total = english + math + python
+average = total / 3
+
+if average >= 80:
+    grade = "A+"
+elif average >= 70:
+    grade = "A"
+elif average >= 60:
+    grade = "A-"
+elif average >= 50:
+    grade = "B"
+elif average >= 40:
+    grade = "C"
+elif average >= 33:
+    grade = "D"
+else:
+    grade = "F"
+
+print("\nStudent Name:", name)
+print("Total Marks:", total)
+print("Average Marks:", round(average, 2))
+print("Grade:", grade)
